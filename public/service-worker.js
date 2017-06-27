@@ -16,10 +16,10 @@ var dataCacheName = 'MikkiPastel-v1';
 var cacheName = 'MikkiPastel-1';
 var filesToCache = [
   '/',
+  '/favicon.ico',
   '/index.html',
   '/about.html',
   '/BKroute.html',
-  '/favicon.ico',
   '/healthMe.html',
   '/ipcam.html',
   '/MyMotion.html',
@@ -44,9 +44,7 @@ var filesToCache = [
   '/image/app_mymotion.png',
   '/image/app_onemeal.png',
   '/image/app_sukhum.jpg',
-  '/image/bkroute',
   '/image/cover_play.png',
-  '/image/icons',
   '/image/loongsukhum_team.jpg',
   '/image/monthira_adword_cerf.jpg',
   '/image/owlvegrammo.PNG',
