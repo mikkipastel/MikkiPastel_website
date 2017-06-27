@@ -8,20 +8,32 @@
     <meta name="description" content="Miikpastel studio android developer application design blogger">
     <meta name="author" content="Monthira C.">
     <link rel="icon" href="favicon.ico">
+    <meta name="theme-color" content='#ff0000'>
 
     <!-- improve for web cache-->
     <meta http-equiv="Cache-control" content="public">
 
-    <title>MikkiPastel Studio</title>
+    <title>MyMotion : MikkiPastel Studio</title>
+
+    <!-- TODO add manifest here -->
+    <link rel="manifest" href="/manifest.json">
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="MikkiPastel">
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#ff0000">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script async src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,8 +42,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
   </head>
 <!-- JUMBOTRON
 ================================================== -->
@@ -84,7 +94,7 @@
         </div>
         <iframe class="center-block" src="https://docs.google.com/presentation/d/1ENSchuZ8435n3r5pgPLkzXKfsFtIiOiWhcPDB-uRQrw/embed?start=false&loop=false&delayms=3000" frameborder="1" width="595" height="485" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
         </iframe>
-        <br>
+        <br></br>
         <p class="lead">Stop motion android application project in Mobile Developer subject.</p>
       </div>
 
@@ -121,5 +131,15 @@
     <script async src="js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script async src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- service worker for PWA -->
+    <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+      .register('/service-worker.js')
+      .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
+
   </body>
 </html>
