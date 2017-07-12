@@ -37,6 +37,7 @@ var filesToCache = [
   '/image/activity_sia.jpg',
   '/image/activity_walkathon.jpg',
   '/image/app_BKroute.jpg',
+  '/image/app_chicktoys.png'
   '/image/app_feelfit.png',
   '/image/app_healthME.png',
   '/image/app_ipcam.png',
