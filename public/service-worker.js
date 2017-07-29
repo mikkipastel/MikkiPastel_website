@@ -37,7 +37,8 @@ var filesToCache = [
   '/image/activity_sia.jpg',
   '/image/activity_walkathon.jpg',
   '/image/app_BKroute.jpg',
-  '/image/app_chicktoys.png'
+  '/image/app_chicktoys.png',
+  '/image/app_exoplanet.png',
   '/image/app_feelfit.png',
   '/image/app_healthME.png',
   '/image/app_ipcam.png',
@@ -52,6 +53,7 @@ var filesToCache = [
   '/image/profile1.jpg',
   '/image/profile2.jpg',
   '/image/pwa_reward.jpg',
+  '/image/smartphone-312816_960_720.jpg',
   '/image/bkroute/1446722515905.jpg',
   '/image/bkroute/activity_mega2014_b.jpeg',
   '/image/bkroute/activity_sia_b.jpg',
