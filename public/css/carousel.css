@@ -42,7 +42,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/mikkipastel.appspot.com/o/smartphone-312816_960_720.jpg?alt=media&token=bbeeeec8-6f2e-4807-8c56-c66ec8f6a248");
+  background-image: url("../image/smartphone-312816_960_720.jpg");
   background-size: cover;
   position : fix;
   color: #ffffff;
