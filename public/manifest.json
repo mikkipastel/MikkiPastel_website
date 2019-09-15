@@ -1,5 +1,5 @@
 {
-  "name": "MikkiPastel Portfolio",
+  "name": "MikkiPastel Portfolio Website",
   "short_name": "MikkiPastel",
   "icons": [{
     "src": "image/icons/icon-128x128.png",
@@ -24,6 +24,6 @@
     }],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#938A85",
-  "theme_color": "#ff0000"
+  "background_color": "#FF9999",
+  "theme_color": "#B71D25"
 }
